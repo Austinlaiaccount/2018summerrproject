@@ -8,3 +8,6 @@
 
 ## Week1
 學習R基本使用
+
+
+[hw1](https://austinlaiaccount.github.io/2018summerrproject/week1/hw1.html)
