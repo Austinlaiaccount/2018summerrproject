@@ -17,4 +17,4 @@
 應用ggplot來生成表格
 
 
-[hw2](file:///D:/week2/hw2.html)
+[hw2](https://austinlaiaccount.github.io/2018summerrproject/week2/hw2.html)
