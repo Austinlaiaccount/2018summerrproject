@@ -11,3 +11,10 @@
 
 
 [hw1](https://austinlaiaccount.github.io/2018summerrproject/week1/hw1.html)
+
+## Week2
+### part1
+應用ggplot來生成表格
+
+
+[hw2](file:///D:/week2/hw2.html)
