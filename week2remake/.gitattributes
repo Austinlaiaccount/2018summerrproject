@@ -1,0 +1,40 @@
+---
+title: "Data Visualization"
+output: html_document
+---
+
+
+
+
+
+### Austin
+
+```{r}
+
+library(ggplot2)
+```
+```{r}
+iris
+```
+
+```{r}
+library(ggplot2)
+ggplot(data=iris)+geom_boxplot(aes(x=Species,y=Sepal.Length))
+```
+
+```{r}
+ggplot(iris,aes(x=Sepal.Length,y=Sepal.Width))+geom_point()
+```
+
+```{r}
+ggplot(iris,aes(x=Sepal.Length,y=Petal.Width))+geom_line()
+```
+
+```{r}
+
+ggplot(data=iris,aes(x=Sepal.Length,y=Petal.Length))+geom_step()
+```
+
+
+
+
