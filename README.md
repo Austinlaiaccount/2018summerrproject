@@ -25,6 +25,6 @@
 ### 上午 
 回顧前一週作業成績,學習資料視覺化,應用R ggplot生成表格
 
-[Homework_2](https://austinlaiaccount.github.io/2018summerrproject/week2/hw2.html)
+[Homework_2](https://austinlaiaccount.github.io/2018summerrproject/week2remake/hw2remake.html)
 
 ### 下午
