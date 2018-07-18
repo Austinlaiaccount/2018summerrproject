@@ -7,14 +7,24 @@
 學號:D0715530
 
 ## Week1
-學習R基本使用
+### 上午
+安裝應用程式:GITHUB DESKTOP,SUBLIME TEXT
+註冊GITHUB帳號,建立README.md,以及填寫問卷調查
 
+### 下午
+安裝應用程式:R,R STUDIO
+學習什麼是R markdown,首次上傳個人資料至GITHUB
 
-[hw1](https://austinlaiaccount.github.io/2018summerrproject/week1/hw1.html)
+### 作業
+下載datacamp+自行練習,下載discord
+
+[Homework_1](https://austinlaiaccount.github.io/2018summerrproject/week1/hw1.html)
+
 
 ## Week2
-### part1
-應用ggplot來生成表格
+### 上午 
+回顧前一週作業成績,學習資料視覺化,應用R ggplot生成表格
 
+[Homework_2](https://austinlaiaccount.github.io/2018summerrproject/week2/hw2.html)
 
-[hw2](https://austinlaiaccount.github.io/2018summerrproject/week2/hw2.html)
+### 下午
