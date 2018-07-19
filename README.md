@@ -28,3 +28,6 @@
 [Homework_2](https://austinlaiaccount.github.io/2018summerrproject/week2remake/hw2remake.html)
 
 ### 下午
+上PTT找資料，並且製作文字雲
+
+[Homework_3](https://austinlaiaccount.github.io/2018summerrproject/week2part2/hw3.html)
