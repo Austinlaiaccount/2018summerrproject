@@ -31,3 +31,10 @@
 上PTT找資料，並且製作文字雲
 
 [Homework_3](https://austinlaiaccount.github.io/2018summerrproject/week2part2/hw3.html)
+
+
+## Week3
+###上午
+學習如何將資料分割，並且利用Rmarkdown來製作EDA報告
+
+[Homework_4](https://austinlaiaccount.github.io/2018summerrproject/week3part1/hw4.html)
