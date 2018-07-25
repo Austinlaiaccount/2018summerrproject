@@ -1,0 +1,44 @@
+---
+title: "hw4"
+output: html_document
+---
+
+# Data From https://www.kaggle.com/erikbruin/titanic-2nd-degree-families-and-majority-voting/data
+```{r}
+TestData = read.csv('./test.csv')
+```
+
+# Using split and apply
+### Summary...一開始有點不會用，但是後來用久了，就打概了解理論了
+```{r}
+Names = TestData$Name
+splitTitle <- function(x){
+  strsplit(x, split='[,.]')[[1]]
+}
+Temp = sapply(as.character(Names), splitTitle)
+```
+```{r}
+TestData$Surname <- Temp[1,]
+TestData$Title <- Temp[2,]
+```
+
+```{r}
+library(knitr)
+kable(table(TestData$Sex, TestData$Title))
+```
+
+```{r}
+TestData$Title[TestData$Title %in% c("Mlle", "Ms")] <- "Miss"
+TestData$Title[TestData$Title== "Mme"] <- "Mrs"
+TestData$Title[!(TestData$Title %in% c('Master', 'Miss', 'Mr', 'Mrs'))] <- "Total Number"
+TestData$Title <- as.factor(TestData$Title)
+kable(table(TestData$Sex, TestData$Title))
+```
+```{r}
+library(ggplot2)
+ggplot(TestData[!is.na(TestData$Name),], aes(x = Title, fill = Names)) +
+  geom_bar(stat='count', position='stack') +
+  labs(x = 'Title') +theme_grey()
+```
+
+
